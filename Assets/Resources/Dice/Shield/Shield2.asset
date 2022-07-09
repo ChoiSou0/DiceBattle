@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackValue: 0
   CriticalValue: 0
-  ShieldValue: 0
+  ShieldValue: 20
   HealValue: 0
+  ReflexValue: 0

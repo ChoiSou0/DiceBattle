@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e8ce2fc1aa7d2b4d905c98f1b12770c, type: 3}
   m_Name: Incision3
   m_EditorClassIdentifier: 
-  AttackValue: 0
+  AttackValue: 10
   CriticalValue: 0
   ShieldValue: 0
   HealValue: 0
+  ReflexValue: 0

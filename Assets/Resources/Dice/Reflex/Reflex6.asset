@@ -16,3 +16,4 @@ MonoBehaviour:
   CriticalValue: 0
   ShieldValue: 0
   HealValue: 0
+  ReflexValue: 50
