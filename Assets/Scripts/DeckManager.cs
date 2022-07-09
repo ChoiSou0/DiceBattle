@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeckManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class DeckManager : MonoBehaviour
     {
         get
         {
-            if(_instance == null)
+            if (_instance == null)
             {
                 FindObjectOfType<DeckManager>();
             }
@@ -26,8 +27,8 @@ public class DeckManager : MonoBehaviour
     [SerializeField]
     RectTransform invenParent;
 
-    List<DiceSlot> decks = new List<DiceSlot>();
-    List<DiceSlot> invens = new List<DiceSlot>();
+    List<Image> decks = new List<Image>();
+    List<Image> invens = new List<Image>();
 
     private void Awake()
     {
@@ -46,41 +47,41 @@ public class DeckManager : MonoBehaviour
 
     private void Start()
     {
-        if(_instance != null)
+        if (_instance != null)
         {
             Destroy(_instance);
         }
         _instance = this;
         //시작시 인벤 배열에 추가 
-        foreach(DiceSlot diceSlot in invenParent.GetComponentsInChildren<DiceSlot>())
+        foreach (Image diceSlot in invenParent.GetComponentsInChildren<Image>())
         {
             invens.Add(diceSlot);
         }
     }
 
     //덱에 들어가있으면 빼고, 인벤에만 있으면 추가하는 거
-    public void CheckDeck(DiceSlot diceSlot)
+    public void CheckDeck(Image obj)
     {
-        if (decks.Contains(diceSlot))
+        if (decks.Contains(obj))
         {
-            decks.Remove(diceSlot);
-            invens.Add(diceSlot);
-            diceSlot.transform.SetParent(invenParent);
+            decks.Remove(obj);
+            invens.Add(obj);
+            obj.transform.SetParent(invenParent);
         }
         else
         {
-            if(decks.Count < 3)
+            if (decks.Count < 3)
             {
-                invens.Remove(diceSlot);
-                decks.Add(diceSlot);
-                diceSlot.transform.SetParent(deckParent);
+                invens.Remove(obj);
+                decks.Add(obj);
+                obj.transform.SetParent(deckParent);
             }
         }
-    }
 
 
-    void Update()
-    {
-        
+        void Update()
+        {
+
+        }
     }
 }
