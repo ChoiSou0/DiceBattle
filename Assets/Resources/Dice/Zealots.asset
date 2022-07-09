@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Zealots
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: 745251cf4317ee1459dbab190906c2b9, type: 2}
+  - {fileID: 11400000, guid: b79cc5ef8ea6625448248cb06b4e645a, type: 2}
+  - {fileID: 11400000, guid: ccef2578f7fb74a48960608924f73187, type: 2}
+  - {fileID: 11400000, guid: f6aab15a35d757a41898dc72155357f3, type: 2}
+  - {fileID: 11400000, guid: 21c2810c426bd2048a04989d7baf1423, type: 2}
+  - {fileID: 11400000, guid: fb729e6c19ffef84ebda9659d76e3c5d, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Penetrating
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: 42de3e826b8a91b4cbabf3ba27f93437, type: 2}
+  - {fileID: 11400000, guid: e0a9d9a67c7395246a7e647ee3afbaca, type: 2}
+  - {fileID: 11400000, guid: 19fe3273bc01e7a4cbe3c26a756474ec, type: 2}
+  - {fileID: 11400000, guid: c1a0eaddf67d57d44bd53ef301fcc082, type: 2}
+  - {fileID: 11400000, guid: 29e3b19927339dd4a92e17f6053bc3b0, type: 2}
+  - {fileID: 11400000, guid: 889e01774bb1c894a8a91d741d43c43e, type: 2}

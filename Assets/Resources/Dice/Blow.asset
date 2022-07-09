@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Blow
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: 314ec989b5701d24aa3afe7ea84d38d3, type: 2}
+  - {fileID: 11400000, guid: 6fd823ad39a319b469eba19bad3ca659, type: 2}
+  - {fileID: 11400000, guid: 6fccc03be5cd55145aac524ba12a7cba, type: 2}
+  - {fileID: 11400000, guid: 37844ff3de724c34282e5f6e790e3c8c, type: 2}
+  - {fileID: 11400000, guid: 942da6d97bc52a14f9251f9f01e01ca7, type: 2}
+  - {fileID: 11400000, guid: 673a1c4629d576446a9e19ed01b3e19b, type: 2}

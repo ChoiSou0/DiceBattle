@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Fire
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: 609d7c66fce9d5449acefc80a6a01602, type: 2}
+  - {fileID: 11400000, guid: cf768a17f6c63b54f8751d18547a6a74, type: 2}
+  - {fileID: 11400000, guid: a00d57c6e084abe4593dce4cd9547775, type: 2}
+  - {fileID: 11400000, guid: 30472c0c4eb8cc549bafe454ada25933, type: 2}
+  - {fileID: 11400000, guid: 3a356208d3524d04b8d7c4ac633474d5, type: 2}
+  - {fileID: 11400000, guid: fda94c1300056f344b124abdccf41fdf, type: 2}

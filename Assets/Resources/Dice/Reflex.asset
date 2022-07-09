@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Reflex
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: 92ed06f145d80704fbc3a9d1e5780861, type: 2}
+  - {fileID: 11400000, guid: 7ce389cf3c18a4c488189bbbce1f6824, type: 2}
+  - {fileID: 11400000, guid: 1728fe63c8c265b4595ea6c71c05195e, type: 2}
+  - {fileID: 11400000, guid: 212171e8fad8a1642a3549b73c84b6d8, type: 2}
+  - {fileID: 11400000, guid: a8437b909d8aa834b8fbc8b4c57883f4, type: 2}
+  - {fileID: 11400000, guid: 0a654f20cc048b34b91e6f66658593e5, type: 2}

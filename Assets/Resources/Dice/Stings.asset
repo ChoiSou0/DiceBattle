@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Stings
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: d7300a94262aaff4699eef43857ab880, type: 2}
+  - {fileID: 11400000, guid: 2c3421d92fa3787438ca99d58777035b, type: 2}
+  - {fileID: 11400000, guid: d83f2832a922d1240bc78a30e720e6af, type: 2}
+  - {fileID: 11400000, guid: 728f14e6e783d234f859b9b7ec949c7f, type: 2}
+  - {fileID: 11400000, guid: 6d8ba05e8e10b464999b85e762739111, type: 2}
+  - {fileID: 11400000, guid: 8cacf772f4d35cf4eb99c5f685676637, type: 2}

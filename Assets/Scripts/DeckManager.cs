@@ -13,6 +13,11 @@ public class DeckManager : MonoBehaviour
             {
                 FindObjectOfType<DeckManager>();
             }
+            else if (!_instance)
+            {
+                _instance = FindObjectOfType<DeckManager>() as DeckManager;
+            }
+
             return _instance;
         }
     }
@@ -23,6 +28,20 @@ public class DeckManager : MonoBehaviour
 
     List<DiceSlot> decks = new List<DiceSlot>();
     List<DiceSlot> invens = new List<DiceSlot>();
+
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else if (_instance != null)
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
 
 
     private void Start()

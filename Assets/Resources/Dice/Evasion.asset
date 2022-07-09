@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Evasion
+  m_EditorClassIdentifier: 
+  type: 1
+  DiceFaces:
+  - {fileID: 11400000, guid: e62e81b4a171eb343a2261a8875d8d58, type: 2}
+  - {fileID: 11400000, guid: 545eb43734ecb77459464a36e719578b, type: 2}
+  - {fileID: 11400000, guid: 5d802c1f1f45f644a828e7d57415b294, type: 2}
+  - {fileID: 11400000, guid: 1ff9fbdcf4119594297fed25d107fc06, type: 2}
+  - {fileID: 11400000, guid: a9b2a74611564da44aa76a96ace651d2, type: 2}
+  - {fileID: 11400000, guid: 867e34909ad67af448ec95b8ec44393b, type: 2}

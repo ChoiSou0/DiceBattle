@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: f1dd9ab8bb1b06147a878d18dbf3c660, type: 2}
+  - {fileID: 11400000, guid: 538df15759e22b346a2289875f828fbd, type: 2}
+  - {fileID: 11400000, guid: 464344165c1d4ae4d981877f42525554, type: 2}
+  - {fileID: 11400000, guid: 551cf9224bece3c40bb20630583d04f3, type: 2}
+  - {fileID: 11400000, guid: ce8c95f252ad0734d824db510ce62e07, type: 2}
+  - {fileID: 11400000, guid: 91dafbd7569276c4c9d1e2ecb9c782de, type: 2}

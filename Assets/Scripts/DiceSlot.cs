@@ -12,17 +12,3 @@ public class DiceSlot : MonoBehaviour, IPointerClickHandler
         DeckManager.Instance.CheckDeck(this);
     }
 }
-
-[System.Serializable]
-public class Dice
-{
-    public int power;
-    public int Roll()
-    {
-        return Random.Range(0, 3) * power;
-    }
-    public virtual void OnUse()
-    {
-
-    }
-}

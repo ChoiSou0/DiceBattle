@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c580138f068b5534f840b5bad3589211, type: 3}
+  m_Name: CAttack
+  m_EditorClassIdentifier: 
+  type: 0
+  DiceFaces:
+  - {fileID: 11400000, guid: 69945025ef2c7cb47996361e56e46316, type: 2}
+  - {fileID: 11400000, guid: 2fc095af6260285459098234e70ea111, type: 2}
+  - {fileID: 11400000, guid: 717ebcc1c8b7fae4e9f449d69b9f3633, type: 2}
+  - {fileID: 11400000, guid: 74e6768e518da6e48b25f50e86d32c39, type: 2}
+  - {fileID: 11400000, guid: 132a6aa74a1a3f74ca37939083160a41, type: 2}
+  - {fileID: 11400000, guid: 8d9a59c388c785c4fa8bc2034f4309ce, type: 2}
