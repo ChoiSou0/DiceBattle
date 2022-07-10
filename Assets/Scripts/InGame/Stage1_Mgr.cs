@@ -28,6 +28,31 @@ public class Stage1_Mgr : MonoBehaviour
         
     }
 
+    public void Set()
+    {
+        //foreach (var ch in SltDice)
+        //{
+        //    var h = ch.GetComponent<ChsDices>();
+        //    h.InvenCdn = InvenCdn.none;
+        //    h.transform.SetParent(ChsPnl.transform);
+        //    SltDice.Remove(ch);
+        //}
+
+        for (int i = 0; i < 3; i++)
+        {
+            var ch = SltDice[i].GetComponent<ChsDices>();
+            ch.InvenCdn = InvenCdn.none;
+            ch.transform.SetParent(ChsPnl.transform);
+            SltDice.Remove(SltDice[i]);
+            Debug.Log(i);
+        }
+
+        var h = SltDice[2].GetComponent<ChsDices>();
+        h.InvenCdn = InvenCdn.none;
+        h.transform.SetParent(ChsPnl.transform);
+        SltDice.Remove(SltDice[2]);
+    }
+
     public void ReroleDice()
     {
         int max = 0;
@@ -49,7 +74,7 @@ public class Stage1_Mgr : MonoBehaviour
             }
 
             ChsList[i].InvenCdn = pickDice.InvenCdnType;
-            pickDice.InvenCdnType = InvenCdn.none;
+            //pickDice.InvenCdnType = InvenCdn.none;
             pickDice.gameObject.SetActive(false);
         }
     }

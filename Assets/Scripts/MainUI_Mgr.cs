@@ -12,14 +12,14 @@ public class MainUI_Mgr : MonoBehaviour
 
     public void OnClickRight()
     {
-        Deck.transform.DOLocalMove(new Vector2(-1950, 0), 1f);
+        Deck.transform.DOLocalMove(new Vector2(-1925, 0), 1f);
         Main.transform.DOLocalMove(new Vector2(0, 0), 1f);
     }
 
     public void OnClickLeft()
     {
         Deck.transform.DOLocalMove(new Vector2(0, 0), 1f);
-        Main.transform.DOLocalMove(new Vector2(1950, 0), 1f);
+        Main.transform.DOLocalMove(new Vector2(1925, 0), 1f);
     }
 
     public void OnClickGameStart()
